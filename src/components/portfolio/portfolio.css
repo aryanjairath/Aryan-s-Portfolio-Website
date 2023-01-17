@@ -11,7 +11,7 @@
 .portfolio_item{
     min-height: 20rem;
     background-color: var(--color-bg-variant);
-    padding: 1.2rem;
+    padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
