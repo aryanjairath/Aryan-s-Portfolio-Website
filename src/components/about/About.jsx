@@ -4,11 +4,15 @@ import ME from '../../assets/about-me.jpg'
 import {FaGraduationCap} from 'react-icons/fa'
 import {HiOutlineDesktopComputer} from 'react-icons/hi'
 import {SiCrowdsource} from 'react-icons/si'
+import {Animated} from "react-animated-css";
+
 const About = () => {
   return (
     <section id = 'about'>
         <h5> Get To Know Me</h5>
         <h2>About Me</h2>
+
+
         <div className="container about_container">
             <div className = 'about_me'>
                 <div className='about_me-image'>

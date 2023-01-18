@@ -38,16 +38,17 @@
     border-radius: 1rem;
     padding:2rem;
     text-align:center;
-    transition:var(--transition);
-
-
+    transition:var(--transition),transform 400ms;
+    
 }
 
 .about_card:hover{
+    transform: scale(1.2);
+    transition-duration: 800ms;
     background:transparent;
     border-color: var(--color-primary-variant);
-    cursor:crosshair
-    
+    cursor:crosshair;
+
 }
 
 .about_icon{

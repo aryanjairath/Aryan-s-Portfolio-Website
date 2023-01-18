@@ -17,6 +17,14 @@ header{
     gap: 1.2rem;
     padding: 1rem;
     justify-content: center;
+    opacity:initial;
+    transition: transform 250ms,opacity 10000ms;
+
+}
+.cta:hover{
+    transform: scale(1.2);
+    opacity: 0;
+  
 }
 
 .header_socials{
@@ -27,9 +35,15 @@ header{
     position: absolute;
     left: 0;
     bottom: 3rem;
+    will-change: transform;
+    transition: transform 250ms;
 
 }
+.header_socials:hover{
+    transition-delay: 100ms;
+    transform: scale(1.4);
 
+}
 .header_socials::before{
     content: '';
     width: 1px;
@@ -56,8 +70,14 @@ header{
     transform: rotate(90deg);
     font-weight:300;
     font-size: 0.9rem;
-}
+    transition: transform 250ms;
 
+}
+.scroll_down:hover{
+    transition-duration: 1000ms;
+    transform:scale(1.4);
+
+}
 @media screen and (max-width: 1024px){
     header{
         height: 68vh;
