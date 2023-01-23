@@ -59,11 +59,12 @@
     font-size: .95rem;
 }
 .about_card small{
-    font-size: 0.7rem;
+    font-size: 0.85rem;
     color: turquoise;
 }
 .about_content p{
     margin: 2rem 0 2.6rem;
+    font-size:larger;
     color: turquoise
 }
 @media screen and (max-width: 1024px){

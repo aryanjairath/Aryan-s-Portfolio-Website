@@ -1,10 +1,10 @@
 import React from 'react'
 import './experience.css'
 import {BsFillBookmarkCheckFill} from 'react-icons/bs';
-import {SiAssemblyscript, SiJava, SiKotlin, SiMysql, SiXaml} from 'react-icons/si';
+import {SiAssemblyscript, SiJava, SiJquery, SiKotlin, SiMysql, SiXaml} from 'react-icons/si';
 import {FaReact} from 'react-icons/fa';
 import {ImHtmlFive2} from 'react-icons/im';
-import {DiCss3, DiJava, DiJavascript, DiJavascript1, DiMysql, DiPython, DiSqllite} from 'react-icons/di'
+import {DiCss3, DiJava, DiJavascript, DiJavascript1, DiJqueryLogo, DiMysql, DiPython, DiSqllite} from 'react-icons/di'
 import {Paint} from '../../assets/PaintProgram.png'
 import {IoLogoJavascript} from 'react-icons/io'
 const Experience = () => {
@@ -51,6 +51,15 @@ const Experience = () => {
                         </div>
                     </article>
                 </div>
+                <div className="experient_content">
+                    <article className='experience_details'>
+                        <SiJquery/>
+                        <div>
+                            <h4>jQuery</h4>
+                            <small className = 'text'>Intermediate</small>
+                        </div>
+                    </article>
+                </div>
             </div>
             <div className="experience_backend">
             <h3>Backend Development</h3>
@@ -69,15 +78,6 @@ const Experience = () => {
                         <div>
                             <h4>Python</h4>
                             <small className = 'text'>Experienced</small>
-                        </div>
-                    </article>
-                </div>
-                <div className="experient_content">
-                    <article className='experience_details'>
-                        <DiMysql/>
-                        <div>
-                        <h4>JavaScript</h4>
-                        <small className = 'text'>Experienced</small>
                         </div>
                     </article>
                 </div>

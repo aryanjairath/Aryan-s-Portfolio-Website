@@ -14,6 +14,7 @@
 
 }
 .experience_container>div:hover{
+    transition-duration: 1s;
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor:default;

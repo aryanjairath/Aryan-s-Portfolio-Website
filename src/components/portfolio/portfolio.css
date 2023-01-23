@@ -18,6 +18,7 @@
 
 }
 .portfolio_item:hover{
+    transition-duration: 1s;
     border-color: var(--color-primary-variant);
     background: transparent;
 }

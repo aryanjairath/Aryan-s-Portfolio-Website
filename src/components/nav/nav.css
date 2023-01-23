@@ -24,10 +24,13 @@ nav a{
 
 nav a:hover{
     background: rgba(0, 0, 0, 0.3);
+    transform: scale(1.2)
 }
 
 nav a.active{
     background: var(--color-bg);
+    opacity: 50%;
     color: var(--color-white);
+    transition: transform 200ms ;
 
 }

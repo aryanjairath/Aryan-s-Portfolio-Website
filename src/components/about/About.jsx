@@ -44,7 +44,10 @@ const About = () => {
                     University with both Front-End and Back-End experiene in programming. 
                     I have a 3.92 GPA and have surrounded myself in an environment to further 
                     my computer science arsenal in any way possible. I currently am involved in the
-                    Rutgers Security Club and am interning at Fannie Mae as a SWE Intern. In my free time, I enjoy doing algorithmic style coding problems, making mobile applications particularly on the Android side. I also am a big Brooklyn Nets and Roger Federer fan and watch sports almost every day</p>
+                    Rutgers Security Club. I am currently a software engineer intern at Fannie Mae for the enterprise architect team. 
+                    In my free time, I enjoy doing algorithmic style coding problems, making mobile 
+                    applications particularly on the Android side. I also have a multitude of hobbies: a big Brooklyn Nets and Roger 
+                    Federer fan and watch sports almost every day and also just hanging out with friends and family whenver I can. </p>
             </div>
             <a href = "#contact" className = "btn btn-primary">Let's Chat!</a>
         </div>
