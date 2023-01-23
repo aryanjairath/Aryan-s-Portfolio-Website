@@ -41,10 +41,10 @@ const About = () => {
                     </article>
                 </div>
                 <p>I am currenty a second year student at Rutgers
-                    University with both Front-End and Back-End experiene in programming. 
+                    University with both Front-End and Back-End experience in programming. 
                     I have a 3.92 GPA and have surrounded myself in an environment to further 
                     my computer science arsenal in any way possible. I currently am involved in the
-                    Rutgers Security Club. I am currently a software engineer intern at Fannie Mae for the enterprise architect team. 
+                    Rutgers Security Club.
                     In my free time, I enjoy doing algorithmic style coding problems, making mobile 
                     applications particularly on the Android side. I also have a multitude of hobbies: a big Brooklyn Nets and Roger 
                     Federer fan and watch sports almost every day and also just hanging out with friends and family whenver I can. </p>
