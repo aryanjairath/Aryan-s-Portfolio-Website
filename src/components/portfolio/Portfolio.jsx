@@ -20,7 +20,6 @@ const Portfolio = () => {
                 </div>
             <div className = "portfolio_item-cta">
                 <a href='https://github.com/aryanjairath/MazeProject.git' className ='btn' target = '_blank'>Github</a>
-                <a href='https://dribbble.com/Alien_pixels' className ='btn btn-primary' target = '_blank'>Live Demo</a>
             </div>
             </article>
 
@@ -33,7 +32,6 @@ const Portfolio = () => {
                 </div>
                 <div className = "portfolio_item-cta">
                     <a href='https://github.com/aryanjairath/MusicBox.git' className ='btn' target = '_blank'>Github</a>
-                    <a href='https://dribbble.com/Alien_pixels' className ='btn btn-primary' target = '_blank'>Live Demo</a>
                 </div>
             </article>
 
@@ -44,7 +42,6 @@ const Portfolio = () => {
                 </div>
             <div className = "portfolio_item-cta">
                 <a href='https://github.com/aryanjairath/GUI-Task.git' className ='btn' target = '_blank'>Github</a>
-                <a href='https://dribbble.com/Alien_pixels' className ='btn btn-primary' target = '_blank'>Live Demo</a>
             </div>
             </article>
             <article className='portfolio_item'>
@@ -54,7 +51,6 @@ const Portfolio = () => {
                 </div>
             <div className = "portfolio_item-cta">
                 <a href='https://github.com/aryanjairath/CalculatorApp' className ='btn' target = '_blank'>Github</a>
-                <a href='https://dribbble.com/Alien_pixels' className ='btn btn-primary' target = '_blank'>Live Demo</a>
             </div>
             </article>
             <article className='portfolio_item'>
@@ -64,7 +60,6 @@ const Portfolio = () => {
                 </div>
             <div className = "portfolio_item-cta">
                 <a href='https://github.com/aryanjairath/DOBCalc.git' className ='btn' target = '_blank'>Github</a>
-                <a href='https://dribbble.com/Alien_pixels' className ='btn btn-primary' target = '_blank'>Live Demo</a>
             </div>
             </article>
             <article className='portfolio_item'>
@@ -74,7 +69,6 @@ const Portfolio = () => {
                 </div>
             <div className = "portfolio_item-cta">
                 <a href='https://github.com/aryanjairath/DOBCalc.git' className ='btn' target = '_blank'>Github</a>
-                <a href='https://dribbble.com/Alien_pixels' className ='btn btn-primary' target = '_blank'>Live Demo</a>
             </div>
             </article>
         </div>
