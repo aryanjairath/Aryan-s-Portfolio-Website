@@ -5,7 +5,8 @@ import MusicBox from '../../assets/MusicBox.png'
 import maze1 from '../../assets/Maze3d.png'
 import Calc from '../../assets/phoneImg.png'
 import DOB from '../../assets/DOB.png'
-import backgroundVideo from '../../assets/nn.mp4'
+import reactIc from '../../assets/myWebsite.png'
+
 
 const Portfolio = () => {
   return (
@@ -15,7 +16,7 @@ const Portfolio = () => {
 
         <div className="container portfolio_container">
             <article className='portfolio_item'>
-                <h3>Maze Project</h3>
+                <h3>2/3 Dimensional Maze Project</h3>
                 <div className = 'portfolio_item-image'>
                     <img src = {maze1} alt = ''></img>
                 </div>
@@ -46,6 +47,15 @@ const Portfolio = () => {
             </div>
             </article>
             <article className='portfolio_item'>
+                <h3>This React Portfolio Website</h3>
+                <div className = 'portfolio_item-image'>
+                    <img src = {reactIc} alt = ''></img>
+                </div>
+            <div className = "portfolio_item-cta">
+                <a href='https://github.com/aryanjairath/react-portfolio-website-1' className ='btn' target = '_blank'>Github</a>
+            </div>
+            </article>
+            <article className='portfolio_item'>
                 <h3>Android Calculator App</h3>
                 <div className = 'portfolio_item-image'>
                     <img src = {Calc} alt = ''></img>
@@ -55,7 +65,7 @@ const Portfolio = () => {
             </div>
             </article>
             <article className='portfolio_item'>
-                <h3>Android DOBCalc</h3>
+                <h3>Android DOB Calculator</h3>
                 <div className = 'portfolio_item-image'>
                     <img src = {DOB} alt = ''></img>
                 </div>
@@ -63,11 +73,7 @@ const Portfolio = () => {
                 <a href='https://github.com/aryanjairath/DOBCalc.git' className ='btn' target = '_blank'>Github</a>
             </div>
             </article>
-                <div className = 'portfolio_item-video'>
-                <video autoPlay loop muted id='video'>
-                <source src={backgroundVideo} type = 'video/mp4'/>
-                </video>
-                </div>
+
         </div>
     </section>
   )
