@@ -63,13 +63,11 @@ const Portfolio = () => {
                 <a href='https://github.com/aryanjairath/DOBCalc.git' className ='btn' target = '_blank'>Github</a>
             </div>
             </article>
-            <article className='portfolio_item'>
                 <div className = 'portfolio_item-video'>
                 <video autoPlay loop muted id='video'>
                 <source src={backgroundVideo} type = 'video/mp4'/>
                 </video>
                 </div>
-            </article>
         </div>
     </section>
   )
