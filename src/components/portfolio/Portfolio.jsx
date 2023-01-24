@@ -5,6 +5,7 @@ import MusicBox from '../../assets/MusicBox.png'
 import maze1 from '../../assets/Maze3d.png'
 import Calc from '../../assets/phoneImg.png'
 import DOB from '../../assets/DOB.png'
+import backgroundVideo from '../../assets/nn.mp4'
 
 const Portfolio = () => {
   return (
@@ -62,15 +63,11 @@ const Portfolio = () => {
                 <a href='https://github.com/aryanjairath/DOBCalc.git' className ='btn' target = '_blank'>Github</a>
             </div>
             </article>
-            <article className='portfolio_item'>
-                <h3>DOBCalc</h3>
-                <div className = 'portfolio_item-image'>
-                    <img src = {DOB} alt = ''></img>
+                <div className = 'portfolio_item-video'>
+                    <video autoPlay loop muted id='video'>
+                        <source src={backgroundVideo} type = 'video/mp4'/>
+                    </video>
                 </div>
-            <div className = "portfolio_item-cta">
-                <a href='https://github.com/aryanjairath/DOBCalc.git' className ='btn' target = '_blank'>Github</a>
-            </div>
-            </article>
         </div>
     </section>
   )

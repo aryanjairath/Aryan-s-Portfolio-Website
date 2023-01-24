@@ -1,6 +1,8 @@
 .portfolio_item-image{
     max-width: 20rem;
     max-height:7rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
 }
 .portfolio_container{
     display: grid;
@@ -17,16 +19,20 @@
     transition: var(--transition);
 
 }
+
 .portfolio_item:hover{
     transition-duration: 1s;
     border-color: var(--color-primary-variant);
     background: transparent;
 }
-.portfolio_item-image{
-    border-radius: 1.5rem;
-    overflow: hidden;
 
+.portfolio_item-video{
+    height:20rem;
+    border-radius: 1.5rem;
+    width: 28rem;
+    overflow: hidden;
 }
+
 .portfolio_item h3{
     margin: 1.2rem 0 2rem;
 }
