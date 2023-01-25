@@ -6,12 +6,15 @@ import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contacts/Contact'
 import Footer from './components/footer/Footer'
 import Experience from './components/experience/Experience'
+import Work from './components/work/Work'
+
 
 const App = () => {
   return (
     <>
     <Header/>
     <About/>
+    <Work />
     <Nav />
     <Experience/>
     <Portfolio/>
