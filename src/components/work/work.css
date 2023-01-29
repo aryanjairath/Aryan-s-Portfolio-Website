@@ -6,7 +6,7 @@
     align-items: center;
 }
 .work-image{
-    border-radius: 3rem;
+    border-radius: 2rem;
     overflow: hidden;
     display: flex;
 
@@ -17,7 +17,7 @@ h3{
 .portfolio_item{
     min-height: 20rem;
     background-color: var(--color-bg-variant);
-    padding: 1.3rem;
+    padding: 1rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);

@@ -45,11 +45,13 @@ width: var(--container-width-lg);
 margin:0 auto;
 };
 
+
 h1,h2,h3,h4,h5{
     font-weight: 500;
 }
 h1{
-    font-size: 2.5rem;
+    font-size: 6rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 h3{
     font-size: 2.5rem;
@@ -58,18 +60,27 @@ h4{
     font-size: 1.5rem;
 }
 h5{
-    font-size: 1.5rem;
+    font-size: 2.2rem;
 }
 section{
     margin-top: 8rem;
 }
 section > h2, section > h5{
     text-align: center;
-    color: var(--color-light);
+    font-size: 5rem;
 }
+
 section > h2{
     color: var(--color-primary);
+    text-decoration:overline;
     margin-bottom: 3rem;
+
+}
+section > h5{
+    padding-left: 15%;
+    text-align: left;
+    text-decoration: underline;
+    color: var(--color-light);
 }
 .text-light{
     color: var(--color-light);
@@ -84,6 +95,7 @@ a:hover{
 
 .btn{
     width: max-content;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: inline-block;
     color: var(--color-primary);
     padding: .75rem 1.2rem;

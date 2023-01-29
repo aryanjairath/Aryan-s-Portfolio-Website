@@ -9,17 +9,28 @@ header{
     height: 100%;
     position: relative;
 }
-
+section > h5{
+    font-size: 3rem;
+}
 /* *************** CTA **************** */
 .cta{
     margin-top: 2.5rem;
     display: flex;
-    gap: 1.2rem;
+    gap: 1rem;
     padding: 1rem;
     justify-content: center;
     opacity:initial;
     transition: transform 250ms,opacity 10000ms;
 
+}
+.cta a{
+    width: 11rem;
+    height:5rem;
+    text-align: center;
+    line-height: 3.2rem;
+    font-size: 1.3rem;
+    background:var(--color-primary);
+    color: white;
 }
 .cta:hover{
     transform: scale(1.2);
@@ -51,7 +62,6 @@ header{
     background: var(--color-primary);
 
 }
-
 .me{
     background: var(--color-primary);
     border-radius:2rem;
