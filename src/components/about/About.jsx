@@ -59,7 +59,7 @@ const About = () => {
                     <article className ='about_details'>
                         <div>
                             <BsArrowRightCircleFill className = 'bullet' />
-                            <small>Officer/Executive </small>
+                            <small>Biomed Officer </small>
                         </div>
                         <div>
                             <BsArrowRightCircleFill className = 'bullet' />
