@@ -12,7 +12,7 @@ const Work = () => {
   return (
     <section id = 'work'>
         <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3} animateOnce={true}>
-            <h5>Work/Leadership</h5>
+            <h5>Work & Leadership</h5>
             <h2>Internships</h2>
         </ScrollAnimation>
         <div className="container work">
