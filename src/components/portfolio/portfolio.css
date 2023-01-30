@@ -10,6 +10,8 @@
     gap: 2.5rem;
     align-items: center;
 }
+
+
 .portfolio_item{
     min-height: 20rem;
     background-color: var(--color-bg-variant);

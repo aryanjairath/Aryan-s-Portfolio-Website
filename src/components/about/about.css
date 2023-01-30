@@ -41,7 +41,18 @@
     transition:var(--transition),transform 400ms;
     
 }
+h2{
+    text-align: center;
+    font-size: 5rem;
+    color: var(--color-primary);
+    text-decoration:overline;
+    margin-bottom: 3rem;
+}
+h5{
+    font-size: 5rem;
+    text-align: center;
 
+}
 .about_card:hover{
     transform: scale(1.2);
     transition-duration: 800ms;

@@ -5,6 +5,7 @@ import {BsTelephone} from 'react-icons/bs';
 import {GrInstagram} from 'react-icons/gr';
 import {useRef} from 'react';
 import emailjs from 'emailjs-com';
+import ScrollAnimation from 'react-animate-on-scroll';
 export const Contact = () => {
     const form = useRef();
   
@@ -17,7 +18,9 @@ export const Contact = () => {
     
   return (
     <section id = 'contact'>
-        <h2>Contact Me</h2>
+        <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3} animateOnce={true}>
+            <h2>Contact Me</h2>
+        </ScrollAnimation>
         <div className = "container contact_container">
             <div className = 'contact_options'>
 

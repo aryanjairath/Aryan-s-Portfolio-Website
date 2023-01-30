@@ -6,11 +6,15 @@ import genesis from  '../../assets/genesis.jpg'
 import {BsHouseDoor} from 'react-icons/bs'
 import {FaRegKeyboard} from 'react-icons/fa'
 import {BiTestTube} from 'react-icons/bi'
+import ScrollAnimation from 'react-animate-on-scroll';
+import 'animate.css';
 const Work = () => {
   return (
     <section id = 'work'>
-        <h5>My Work Experience</h5>
-        <h2>Internships/Activity</h2>
+        <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3} animateOnce={true}>
+            <h5>My Work Experience</h5>
+            <h2>Internships/Activity</h2>
+        </ScrollAnimation>
         <div className="container work">
             <article className='portfolio_item'>
                 <h3>My Positions</h3>

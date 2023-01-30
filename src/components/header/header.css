@@ -1,12 +1,12 @@
 header{
     height: 100vh;
     padding-top: 7rem;
-    overflow:hidden;
+    overflow:auto;
 }
 
 .header_container{
     text-align: center;
-    height: 100%;
+    height: 120%;
     position: relative;
 }
 section > h5{
@@ -62,24 +62,20 @@ section > h5{
     background: var(--color-primary);
 
 }
+
+
 .me{
+    height: auto;
     background: var(--color-primary);
-    border-radius:2rem;
-    overflow:hidden;  
-    display: grid;
-    aspect-ratio: 1/1;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    border-radius: 2rem;
+    width: 28rem;
+    position: absolute;
+    left: calc(50% - 14rem);
 }
 .scroll_down{
-    position:absolute;
-    right:-2.3rem;
-    bottom:5rem;
     transform: rotate(90deg);
     font-weight:300;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    
     transition: transform 250ms;
 
 }

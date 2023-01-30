@@ -7,11 +7,16 @@ import {ImHtmlFive2} from 'react-icons/im';
 import {DiCss3, DiJava, DiJavascript, DiJavascript1, DiJqueryLogo, DiMysql, DiPython, DiSqllite} from 'react-icons/di'
 import {Paint} from '../../assets/PaintProgram.png'
 import {IoLogoJavascript} from 'react-icons/io'
+
+import ScrollAnimation from 'react-animate-on-scroll';
+import 'animate.css';
 const Experience = () => {
   return (
     <section id ='experience'>
-        <h5> My Skils</h5>
-        <h2> My Experience</h2>
+        <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3} animateOnce={true}>
+            <h5> My Skils</h5>
+            <h2> Coding Languages</h2>
+        </ScrollAnimation>
         <div className="container experience_container">
             <div className="experience_frontend">
                 <h3>Frontend Development</h3>

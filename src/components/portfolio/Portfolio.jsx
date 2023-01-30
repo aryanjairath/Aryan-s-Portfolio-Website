@@ -7,13 +7,15 @@ import Calc from '../../assets/phoneImg.png'
 import DOB from '../../assets/DOB.png'
 import reactIc from '../../assets/myWebsite.png'
 
-
+import ScrollAnimation from 'react-animate-on-scroll';
+import 'animate.css';
 const Portfolio = () => {
   return (
     <section id = 'portfolio'>
-        <h5>My Recent Work</h5>
-        <h2>Portfolio</h2>
-
+        <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3} animateOnce={true}>
+            <h5>My Recent Work</h5>
+            <h2>Portfolio</h2>
+        </ScrollAnimation>
         <div className="container portfolio_container">
             <article className='portfolio_item'>
                 <h3>2/3 Dimensional Maze Project</h3>
