@@ -4,6 +4,7 @@ import ME from '../../assets/about-me.jpg'
 import {FaGraduationCap} from 'react-icons/fa'
 import {HiOutlineDesktopComputer} from 'react-icons/hi'
 import {SiCrowdsource} from 'react-icons/si'
+import {BsArrowRightCircleFill} from 'react-icons/bs'
 
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css';
@@ -39,6 +40,50 @@ const About = () => {
                         <HiOutlineDesktopComputer className = 'about_icon' />
                         <h5>Projects</h5>
                         <small>10+ Personal Projects</small>
+                    </article>
+                    <article className ='about_details'>
+                        <div>
+                            <BsArrowRightCircleFill className = 'bullet' />
+                            <small>GPA: 3.92</small>
+                        </div>
+                        <div>
+                            <BsArrowRightCircleFill className = 'bullet' />
+                            <small>Innovation Fellowship</small>
+                        </div>
+                        <div>
+                            <BsArrowRightCircleFill className = 'bullet' />
+                            <small>RU Security  Club</small>
+                        </div>
+                    </article>
+
+                    <article className ='about_details'>
+                        <div>
+                            <BsArrowRightCircleFill className = 'bullet' />
+                            <small>Officer/Executive </small>
+                        </div>
+                        <div>
+                            <BsArrowRightCircleFill className = 'bullet' />
+                            <small>Learning Coach</small>
+                        </div>
+                        <div>
+                            <BsArrowRightCircleFill className = 'bullet' />
+                            <small>Community Service</small>
+                        </div>
+                    </article>
+
+                    <article className ='about_details'>
+                        <div>
+                            <BsArrowRightCircleFill className = 'bullet' />
+                            <small>JavaFX Library</small>
+                        </div>
+                        <div>
+                            <BsArrowRightCircleFill className = 'bullet' />
+                            <small>Databases</small>
+                        </div>
+                        <div>
+                            <BsArrowRightCircleFill className = 'bullet' />
+                            <small>Android Applications</small>
+                        </div>
                     </article>
                 </div>
                 <p>I am currenty a second year student at Rutgers

@@ -24,7 +24,7 @@ footer a{
     background: var(--color-bg);
     color: rgb(116, 116, 157);
     padding:1rem;
-    border-radius: 0.7rem;
+    border-radius: 0.9rem;
     display: flex;
     border: 1px solid transparent;
 }

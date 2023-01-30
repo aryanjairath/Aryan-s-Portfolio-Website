@@ -41,6 +41,22 @@
     transition:var(--transition),transform 400ms;
     
 }
+.about_details{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding:1.7rem;
+    text-align:left;
+    font-size: 1.34rem;
+    transition:var(--transition),transform 400ms;
+
+    
+}
+.bullet{
+    color: turquoise;
+    font-size: 1.4rem;
+    margin-right: .28rem;
+}
 h2{
     text-align: center;
     font-size: 5rem;
@@ -58,7 +74,6 @@ h5{
     transition-duration: 800ms;
     background:transparent;
     border-color: var(--color-primary-variant);
-    cursor:crosshair;
 
 }
 
