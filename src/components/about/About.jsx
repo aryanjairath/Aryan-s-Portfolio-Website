@@ -63,7 +63,7 @@ const About = () => {
                         </div>
                         <div>
                             <BsArrowRightCircleFill className = 'bullet' />
-                            <small>Learning Coach</small>
+                            <small>STEM HS Coach</small>
                         </div>
                         <div>
                             <BsArrowRightCircleFill className = 'bullet' />
