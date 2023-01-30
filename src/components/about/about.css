@@ -35,7 +35,7 @@
 .about_card{
     background: var(--color-bg-variant);
     border: 1px solid transparent;
-    width: 12rem;
+    width: 11rem;
     border-radius: 1rem;
     padding:2rem;
     text-align:center;
@@ -48,6 +48,7 @@
     border-radius: 1rem;
     padding:1.7rem;
     text-align:left;
+    height:auto;
     font-size: 1.31rem;
     transition:var(--transition),transform 400ms;
 
