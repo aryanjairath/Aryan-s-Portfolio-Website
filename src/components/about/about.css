@@ -13,6 +13,11 @@
     font-size: 1.5rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+
 .about_me{
     width: 100%;
     aspect-ratio: 1/1;
@@ -114,6 +119,13 @@ h5{
     }
     .about_content p{
         margin: 1rem 0 1.5rem;
+    }
+    .modal{
+        font-size: .9rem;
+        scroll-behavior: auto;
+    }
+    .pop_up_window {
+        max-width: 100vw;
     }
 }
 .pop_up_window {
