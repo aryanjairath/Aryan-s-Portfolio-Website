@@ -10,8 +10,8 @@
     border-radius: 7rem;
     backdrop-filter: blur(60px);
     padding: 4rem;
-    font-size: 2rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .about_me{
     width: 100%;
@@ -136,7 +136,7 @@ h5{
         margin: 1.5rem 0;
     }
     .modal{
-        font-size: .7rem;
+        font-size: .9rem;
         scroll-behavior: auto;
     }
     .pop_up_window {
