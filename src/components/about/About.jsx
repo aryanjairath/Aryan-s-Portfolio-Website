@@ -5,10 +5,14 @@ import {FaGraduationCap} from 'react-icons/fa'
 import {HiOutlineDesktopComputer} from 'react-icons/hi'
 import {SiCrowdsource} from 'react-icons/si'
 import {BsArrowRightCircleFill} from 'react-icons/bs'
+import Popup from 'reactjs-popup';
+import { CSSTransition } from 'react-transition-group';
 
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css';
+  
 const About = () => {
+
   return (
     <section id = 'about'>
         <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3} animateOnce={true}>
@@ -86,16 +90,33 @@ const About = () => {
                         </div>
                     </article>
                 </div>
-                <p>I am currenty a second year student at Rutgers
-                    University with both Front-End and Back-End experience in programming. 
-                    I have a 3.92 GPA and have surrounded myself in an environment to further 
-                    my computer science arsenal in any way possible. I currently am involved in the
-                    Rutgers Security Club.
-                    In my free time, I enjoy doing algorithmic style coding problems, making mobile 
-                    applications particularly on the Android side. I also have a multitude of hobbies: a big Brooklyn Nets and Roger 
-                    Federer fan and watch sports almost every day and also just hanging out with friends and family whenver I can. </p>
             </div>
-            <a href = "#contact" className = "btn btn-primary">Let's Chat!</a>
+
+            <Popup trigger=
+                {<button className='btn btn-primary'> Learn More About Me </button>}
+                modal nested>
+                {close => (
+                    <div className='modal'>
+
+                        <div className="pop_up_window animate__animated animate__zoomIn">
+                            <p>I am currenty a second year student at Rutgers</p>
+                            <p>University with both Front-End and Back-End experience in programming.</p>
+                            <p>I have a 3.92 GPA and have surrounded myself in an environment to further</p> 
+                            <p>my computer science arsenal in any way possible. I currently am involved in the</p>                                <p>Rutgers Security Club.</p>
+                            <p>In my free time, I enjoy doing algorithmic style coding problems, making mobile</p>
+                            <p>applications particularly on the Android side. I also have a multitude of hobbies: a big Brooklyn Nets and Roger </p>
+                            <p>Federer fan and watch sports almost every day and also just hanging out with friends and family whenver I can. </p>                            
+                            </div>
+                        <div>
+                            <button className = 'btn btn-primary'onClick=
+                                {() => close()}>
+                                    Close                                
+                                </button>
+                    </div>
+                    </div>
+                    )
+                }
+            </Popup>
         </div>
     </section>
   )
