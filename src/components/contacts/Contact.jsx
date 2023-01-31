@@ -41,7 +41,7 @@ export const Contact = () => {
             </article>
             <article className='contact_option'>
                 <GrInstagram className = 'contact-option-icon'/>
-                <h4>Instagram/Messenger</h4>
+                <h4>Messenger</h4>
                 <h5>@_aryanjairath</h5>
                 <a href = 'https://www.instagram.com/_aryanjairath/' target ='_blank'>Connect</a>
             </article>

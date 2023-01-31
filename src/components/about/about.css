@@ -1,7 +1,7 @@
 .about_container{
     display: grid;
     grid-template-columns: 35% 50%;
-    gap: 11.7%;
+    gap: 8%;
 }
 .modal{
     text-align: center;
@@ -42,9 +42,13 @@
 }
 
 .about_cards{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    gap:1.5rem;
+    display: grid;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 5%;
 }
 .about_card{
     background: var(--color-bg-variant);

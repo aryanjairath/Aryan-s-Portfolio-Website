@@ -15,8 +15,8 @@ const Work = () => {
             <h5>Work & Leadership</h5>
             <h2>Internships</h2>
         </ScrollAnimation>
-        <div className="container work">
-            <article className='portfolio_item'>
+        <div className='container workpos'>
+        <article className='portfolio_workitem'>
                 <h3>My Positions</h3>
                 <div className="experient_content">
                     <article className='experience_details'>
@@ -43,12 +43,14 @@ const Work = () => {
                     </article>
                 </div>
             </article>
-
+        </div>
+        <div className="container work">
             <article className='portfolio_item'>                
                 <div className = 'work-image'>
                     <img src = {fannie} alt = 'fannie'></img>
                 </div>
             </article>
+
             <article className='portfolio_item'>                
                 <div className = 'work-image'>
                     <img src = {genesis} alt = 'fannie'></img>

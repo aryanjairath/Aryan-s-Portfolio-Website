@@ -74,6 +74,10 @@ const About = () => {
                     <article className ='about_details'>
                         <div>
                             <BsArrowRightCircleFill className = 'bullet' />
+                            <small>OOP</small>
+                        </div>
+                        <div>
+                            <BsArrowRightCircleFill className = 'bullet' />
                             <small>JavaFX Library</small>
                         </div>
                         <div>
