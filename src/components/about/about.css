@@ -1,7 +1,7 @@
 .about_container{
     display: grid;
     grid-template-columns: 35% 50%;
-    gap: 15%;
+    gap: 11.7%;
 }
 
 .about_me{
@@ -35,7 +35,7 @@
 .about_card{
     background: var(--color-bg-variant);
     border: 1px solid transparent;
-    width: 11rem;
+    
     border-radius: 1rem;
     padding:2rem;
     text-align:center;
@@ -46,9 +46,8 @@
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding:1.7rem;
+    padding:2rem;
     text-align:left;
-    height:auto;
     font-size: 1.31rem;
     transition:var(--transition),transform 400ms;
 
