@@ -5,14 +5,10 @@ import {FaGraduationCap} from 'react-icons/fa'
 import {HiOutlineDesktopComputer} from 'react-icons/hi'
 import {SiCrowdsource} from 'react-icons/si'
 import {BsArrowRightCircleFill} from 'react-icons/bs'
-import Popup from 'reactjs-popup';
-import { CSSTransition } from 'react-transition-group';
-
+import Popup from 'reactjs-popup'
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css';
-  
 const About = () => {
-
   return (
     <section id = 'about'>
         <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3} animateOnce={true}>
@@ -91,7 +87,6 @@ const About = () => {
                     </article>
                 </div>
             </div>
-
             <Popup trigger=
                 {<button className='btn btn-primary'> Learn More About Me </button>}
                 modal nested>
@@ -116,8 +111,7 @@ const About = () => {
                     </div>
                     )
                 }
-            </Popup>
-        </div>
+            </Popup>        </div>
     </section>
   )
 }
