@@ -20,7 +20,7 @@ const Experience = () => {
         </ScrollAnimation>
         <div className="container experience_container">
             <div className="experience_frontend">
-                <h3>Frontend Development   </h3>
+                <h3>Frontend Development</h3>
                 <h3></h3>
 
                 <div className="experient_content">
@@ -70,7 +70,7 @@ const Experience = () => {
                 </div>
             </div>
             <div className="experience_backend">
-            <h3>Backend Development </h3>
+            <h3>Backend Development</h3>
             <h3></h3>
 
                 <div className="experient_content">
