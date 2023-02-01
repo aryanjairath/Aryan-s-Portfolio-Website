@@ -116,7 +116,7 @@ input,textarea{
         transition:var(--transition);
     }
     sub{
-        transform: translateX(0rem);
+        transform: translateX(-11rem);
     }
 
 }
