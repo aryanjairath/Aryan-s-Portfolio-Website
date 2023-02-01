@@ -115,8 +115,8 @@ input,textarea{
         border: 1px solid transparent;
         transition:var(--transition);
     }
-    sub{
-        transform: translateX(-11rem);
+    .sub{
+        transform: translateX(0);
     }
 
 }
