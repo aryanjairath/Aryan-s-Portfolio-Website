@@ -28,14 +28,19 @@ section > h5{
     height:5rem;
     text-align: center;
     line-height: 3.2rem;
+    border-color: transparent;
     font-size: 1.1rem;
-    background:var(--color-primary);
+    backdrop-filter: blur(3px);
     color: white;
+    border: 2px dashed darkblue;
 }
-.cta:hover{
+.cta a:hover{
+
     transform: scale(1.2);
-    opacity: 0;
-  
+    background:transparent;
+    backdrop-filter: blur(3px);
+    color: white;
+
 }
 
 .header_socials{

@@ -10,6 +10,7 @@ import {IoLogoJavascript} from 'react-icons/io'
 
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css';
+import { GrMysql } from 'react-icons/gr';
 const Experience = () => {
   return (
     <section id ='experience'>
@@ -20,9 +21,11 @@ const Experience = () => {
         <div className="container experience_container">
             <div className="experience_frontend">
                 <h3>Frontend Development</h3>
+                <h3>Languages & Technologies</h3>
+
                 <div className="experient_content">
                     <article className='experience_details'>
-                        <FaReact/>
+                        <FaReact className='icon'/>
                         <div>
                             <h4>React</h4>
                             <small className = 'text'>Intermediate</small>
@@ -31,7 +34,7 @@ const Experience = () => {
                 </div>
                 <div className="experient_content">
                     <article className='experience_details'>
-                        <ImHtmlFive2/>
+                        <ImHtmlFive2 className='icon'/>
                         <div>
                             <h4>HTML</h4>
                             <small className = 'text'>Intermediate</small>
@@ -40,7 +43,7 @@ const Experience = () => {
                 </div>
                 <div className="experient_content">
                     <article className='experience_details'>
-                        <DiJavascript1/>
+                        <DiJavascript1 className='icon'/>
                         <div>
                             <h4>JavaScript</h4>
                             <small className = 'text'>Intermediate</small>
@@ -49,7 +52,7 @@ const Experience = () => {
                 </div>
                 <div className="experient_content">
                     <article className='experience_details'>
-                        <DiCss3/>
+                        <DiCss3 className='icon'/>
                         <div>
                             <h4>CSS</h4>
                             <small className = 'text'>Intermediate</small>
@@ -58,7 +61,7 @@ const Experience = () => {
                 </div>
                 <div className="experient_content">
                     <article className='experience_details'>
-                        <SiJquery/>
+                        <SiJquery className='icon'/>
                         <div>
                             <h4>jQuery</h4>
                             <small className = 'text'>Intermediate</small>
@@ -68,9 +71,11 @@ const Experience = () => {
             </div>
             <div className="experience_backend">
             <h3>Backend Development</h3>
+            <h3>Languages & Technologies</h3>
+
                 <div className="experient_content">
                     <article className='experience_details'>
-                        <DiJava/>
+                        <DiJava className='icon'/>
                         <div>
                             <h4>Java</h4>
                             <small className = 'text'>Experienced</small>
@@ -79,7 +84,7 @@ const Experience = () => {
                 </div>
                 <div className="experient_content">
                     <article className='experience_details'>
-                        <DiPython/>
+                        <DiPython className='icon'/>
                         <div>
                             <h4>Python</h4>
                             <small className = 'text'>Experienced</small>
@@ -88,7 +93,7 @@ const Experience = () => {
                 </div>
                 <div className="experient_content">
                     <article className='experience_details'>
-                        <SiXaml/>
+                        <SiXaml className='icon'/>
                         <div>
                         <h4>XML</h4>
                         <small className = 'text'>Experienced</small>
@@ -97,7 +102,7 @@ const Experience = () => {
                 </div>
                 <div className="experient_content">
                     <article className='experience_details'>
-                        <SiAssemblyscript/>
+                        <SiAssemblyscript className='icon'/>
                         <div>
                         <h4>Assembly</h4>
                         <small className = 'text'>Intermediate</small>
@@ -106,14 +111,22 @@ const Experience = () => {
                 </div>
                 <div className="experient_content">
                     <article className='experience_details'>
-                        <SiKotlin/>
+                        <GrMysql className='icon'/>
+                        <div>
+                        <h4>MySQL</h4>
+                        <small className = 'text'>Intermediate</small>
+                        </div>
+                    </article>
+                </div>
+                <div className="experient_content">
+                    <article className='experience_details'>
+                        <SiKotlin className='icon'/>
                         <div>
                         <h4>Kotlin</h4>
                         <small className = 'text'>Intermediate</small>
                         </div>
                     </article>
                 </div>
-
             </div>
         </div>
 
