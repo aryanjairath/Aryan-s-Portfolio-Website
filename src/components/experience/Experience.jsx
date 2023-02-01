@@ -72,7 +72,6 @@ const Experience = () => {
             <div className="experience_backend">
             <h3>Backend Development</h3>
             <h3></h3>
-
                 <div className="experient_content">
                     <article className='experience_details'>
                         <DiJava className='icon'/>

@@ -105,6 +105,19 @@ input,textarea{
         margin-left: 0rem;
 
     }
+    .contact_option{
+        background:var(--color-bg-variant);
+        margin-left:0rem;
+        margin-right: 0rem;
+        padding: 1.2rem;
+        text-align: center;
+        border-radius: 2.6rem;
+        border: 1px solid transparent;
+        transition:var(--transition);
+    }
+    sub{
+        transform: translateX(0rem);
+    }
 
 }
 
