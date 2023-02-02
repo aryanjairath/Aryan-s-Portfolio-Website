@@ -2,7 +2,9 @@ import React from 'react'
 import './experience.css'
 import {BsFillBookmarkCheckFill} from 'react-icons/bs';
 import {SiAssemblyscript, SiJava, SiJquery, SiKotlin, SiMysql, SiXaml} from 'react-icons/si';
-import {FaReact} from 'react-icons/fa';
+import {FaJava, FaReact} from 'react-icons/fa';
+import {SiC,SiCplusplus} from 'react-icons/si';
+
 import {ImHtmlFive2} from 'react-icons/im';
 import {DiCss3, DiJava, DiJavascript, DiJavascript1, DiJqueryLogo, DiMysql, DiPython, DiSqllite} from 'react-icons/di'
 import {Paint} from '../../assets/PaintProgram.png'
@@ -22,7 +24,6 @@ const Experience = () => {
             <div className="experience_frontend">
                 <h3>Frontend Development</h3>
                 <h3></h3>
-
                 <div className="experient_content">
                     <article className='experience_details'>
                         <FaReact className='icon'/>
@@ -65,6 +66,24 @@ const Experience = () => {
                         <div>
                             <h4>jQuery</h4>
                             <small className = 'text'>Intermediate</small>
+                        </div>
+                    </article>
+                </div>
+                <div className="experient_content">
+                    <article className='experience_details'>
+                        <FaJava className='icon'/>
+                        <div>
+                            <h4>JavaFX</h4>
+                            <small className = 'text'>Intermediate</small>
+                        </div>
+                    </article>
+                </div>
+                <div className="experient_content">
+                    <article className='experience_details'>
+                        <SiKotlin className='icon'/>
+                        <div>
+                        <h4>Kotlin</h4>
+                        <small className = 'text'>Intermediate</small>
                         </div>
                     </article>
                 </div>
@@ -119,9 +138,18 @@ const Experience = () => {
                 </div>
                 <div className="experient_content">
                     <article className='experience_details'>
-                        <SiKotlin className='icon'/>
+                        <SiC className='icon'/>
                         <div>
-                        <h4>Kotlin</h4>
+                        <h4>C</h4>
+                        <small className = 'text'>Intermediate</small>
+                        </div>
+                    </article>
+                </div>
+                <div className="experient_content">
+                    <article className='experience_details'>
+                        <SiCplusplus className='icon'/>
+                        <div>
+                        <h4>C++</h4>
                         <small className = 'text'>Intermediate</small>
                         </div>
                     </article>

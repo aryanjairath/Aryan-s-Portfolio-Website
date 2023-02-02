@@ -36,6 +36,8 @@
     margin-bottom: 2rem;
     margin-right: 1rem;
     color:var(--color-primary);
+    font-size: 3rem;
+    text-decoration:overline;
 }
 .experience_content{
     margin-right: 1rem;

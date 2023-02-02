@@ -7,6 +7,7 @@ import {BsHouseDoor} from 'react-icons/bs'
 import {FaRegKeyboard} from 'react-icons/fa'
 import {BiTestTube} from 'react-icons/bi'
 import ScrollAnimation from 'react-animate-on-scroll';
+import {BsArrowRight} from 'react-icons/bs'
 import 'animate.css';
 const Work = () => {
   return (
@@ -21,24 +22,27 @@ const Work = () => {
                 <div className="experient_content">
                     <article className='experience_details'>
                         <BsHouseDoor/>
+                        <BsArrowRight/>
                         <div>
-                            <h4>Fannie Mae-Software Engineer</h4>
+                            <h4>Fannie Mae: Software Engineer</h4>
                         </div>
                     </article>
                 </div>
                 <div className="experient_content">
                     <article className='experience_details'>
                         <FaRegKeyboard/>
+                        <BsArrowRight/>
                         <div>
-                            <h4>Genesis Code-Event Handler</h4>
+                            <h4>Genesis Code: Event Handler</h4>
                         </div>
                     </article>
                 </div>
                 <div className="experient_content">
                     <article className='experience_details'>
                         <BiTestTube/>
+                        <BsArrowRight/>
                         <div>
-                            <h4>Biomedical Futures-Executive Member</h4>
+                            <h4>Biomedical Futures: Executive Member</h4>
                         </div>
                     </article>
                 </div>
