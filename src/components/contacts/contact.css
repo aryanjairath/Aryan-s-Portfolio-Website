@@ -76,7 +76,6 @@ input,textarea{
 .sub:hover{
     background:transparent;
     backdrop-filter: blur(3px);
-    color: white;
 
 }
 @media screen and (max-width: 1024px){

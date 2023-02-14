@@ -6,6 +6,7 @@ import {GrInstagram} from 'react-icons/gr';
 import {useRef} from 'react';
 import emailjs from 'emailjs-com';
 import ScrollAnimation from 'react-animate-on-scroll';
+
 export const Contact = () => {
     const form = useRef();
   
@@ -14,7 +15,7 @@ export const Contact = () => {
   
       emailjs.sendForm("service_xbnn4xf","template_ylbml5i",form.current,"ccUirxmdggGR1Y9MN");
     };
-  
+    
     
   return (
     <section id = 'contact'>
@@ -51,7 +52,7 @@ export const Contact = () => {
                 <input type='text' name = 'name' placeholder='Your Name' required/>
                 <input type = 'email' name = 'email' placeholder = 'Your Email' required/>
                 <textarea name = 'message' rows = '7' placeholder= 'Your Message' required/>
-                <button className='btn sub'>Send Message</button>
+                <button  className='btn sub'>Send Message</button>
             </form>
         </div>
     </section>
