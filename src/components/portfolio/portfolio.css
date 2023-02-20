@@ -26,6 +26,7 @@
 
 .portfolio_item:hover{
     transition-duration: 1s;
+    transform: scale(1.1);
     border-color: var(--color-primary-variant);
     background: transparent;
 }

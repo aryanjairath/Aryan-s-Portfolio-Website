@@ -27,7 +27,6 @@
 }
 
 .portfolio_item{
-    background-color: var(--color-bg-variant);
     padding: 1rem;
     border-radius: 2rem;
     border: 1px solid transparent;

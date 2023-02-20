@@ -1,5 +1,6 @@
 nav{
     background:  rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
     width: max-content;
     display: block;
     padding:  0.7rem 1.7rem;
@@ -11,7 +12,6 @@ nav{
     display: flex;
     gap: 1rem;
     border-radius: 3rem;
-    backdrop-filter: blur(8px);
 }
 nav a{
     background: transparent;
