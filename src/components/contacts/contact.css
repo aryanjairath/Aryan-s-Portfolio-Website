@@ -56,9 +56,9 @@ input,textarea{
     width:130%;
     margin-left: -8rem;
     padding:1.5rem;
-    border-radius: 0.8rem;
+    border-radius: 1.7rem;
     background: transparent;
-    border: 2px solid gray;
+    border: 4px solid lightblue;
     resize: none;
     color: white;
 }
@@ -70,7 +70,6 @@ input,textarea{
     text-align: right;
     background-color: var(--color-);
     backdrop-filter: blur(12px);
-
     transform: translateX(21rem);
 }
 .sub:hover{
