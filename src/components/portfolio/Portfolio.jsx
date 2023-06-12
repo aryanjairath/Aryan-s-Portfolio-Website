@@ -6,6 +6,7 @@ import maze1 from '../../assets/Maze3d.png'
 import cafe from '../../assets/rucafe.png'
 import tuition from '../../assets/tuitonmanager.jpg'
 import Calc from '../../assets/phoneImg.png'
+import lifting from '../../assets/liftin.jpg'
 import DOB from '../../assets/DOB.png'
 import reactIc from '../../assets/myWebsite.png'
 
@@ -20,12 +21,21 @@ const Portfolio = () => {
         </ScrollAnimation>
         <div className="container portfolio_container">
             <article className='portfolio_item'>
-                <h3>Android RU Cafe</h3>
+                <h3>(Android) Cafe Shop</h3>
                 <div className = 'portfolio_item-image'>
                     <img src = {cafe} alt = ''></img>
                 </div>
             <div className = "portfolio_item-cta">
                 <a href='https://github.com/aryanjairath/Cafe-App' className ='btn' target = '_blank'>Github</a>
+            </div>
+            </article>
+            <article className='portfolio_item'>
+                <h3>(Android) Gains from Home</h3>
+                <div className = 'portfolio_item-image'>
+                    <img src = {lifting} alt = ''></img>
+                </div>
+            <div className = "portfolio_item-cta">
+                <a href='https://github.com/aryanjairath/workoutapp.git' className ='btn' target = '_blank'>Github</a>
             </div>
             </article>
             <article className='portfolio_item'>
