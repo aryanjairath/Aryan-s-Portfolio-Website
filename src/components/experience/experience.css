@@ -46,6 +46,7 @@
 .icon{
     font-size: 2.3rem;
     margin-left: .5rem;
+    color:var(--color-primary);
 }
 .experience_details{
     display: flex;
@@ -70,9 +71,18 @@
 @media screen and (max-width: 600px){
     .experience_container{
         gap: 1rem;
+        width:100vw;
     }
     .experience_container > div{
         width:100%;
-        padding: 2rem 1rem;
+        padding: 1.5rem 0.55rem;
     }
+    .experience_container > div h4{
+            font-size: 1.6rem;
+
+    }
+    .icon{
+        font-size: 1.9rem;
+    }    
+
 }

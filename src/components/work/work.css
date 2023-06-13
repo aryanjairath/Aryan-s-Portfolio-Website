@@ -67,10 +67,10 @@
     .work{
         grid-template-columns: 3fr;
         gap: 1rem;
+        width: 90px;
     }
     .workpos{
-        margin-left: 0%;
-        margin-right: 0%;
+        height: 900px;
     }
     
 }
