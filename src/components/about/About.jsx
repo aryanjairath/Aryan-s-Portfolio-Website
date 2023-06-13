@@ -44,7 +44,7 @@ const About = () => {
                     <article className ='about_details'>
                         <div>
                             <BsArrowRightCircleFill className = 'bullet' />
-                            <small>GPA: 3.92</small>
+                            <small>GPA: 3.93</small>
                         </div>
                         <div>
                             <BsArrowRightCircleFill className = 'bullet' />

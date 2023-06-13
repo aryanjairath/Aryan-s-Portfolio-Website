@@ -94,11 +94,11 @@ h5{
     border-color: var(--color-primary-variant);
 
 }
-.btn-primary{
-    filter:blur(.11rem)
-}
+
 .btn-primary:hover{
-    filter:blur(0rem)
+    transform: scale(1.4);
+    transition-duration: 1000ms;
+
 }
 .about_icon{
     color: turquoise;
@@ -146,7 +146,9 @@ h5{
         margin: 0 auto 3rem;
     }
     .about_cards{
-        grid-template-columns: .8fr 1fr;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
         gap:1rem;
     }
     .about_content{
