@@ -70,7 +70,10 @@
         width: 90px;
     }
     .workpos{
-        height: 900px;
+        margin-left: 0%;
+        margin-right: 0%;
     }
-    
+    .portfolio_workitem{
+        margin-right:15%;
+    }
 }
