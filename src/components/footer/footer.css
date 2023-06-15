@@ -11,7 +11,7 @@ footer a{
 .footer_logo{
     font-size:2rem;
     font-weight: 500;
-    margin-bottom:3rem;
+    margin-bottom:1rem;
     display:inline-block;
 }
 .footer_socials{
@@ -37,12 +37,16 @@ footer a{
     margin-bottom: 4rem;
     color: rgb(116, 116, 157);
 }
-
+li{
+    margin: 1rem;
+}
 .permalinks{
-    display:flex;
+    display:grid;
     flex-wrap:wrap;
     justify-content: center;
-    gap: 2rem;
-    margin-bottom: 1rem;
-    margin: 0 auto 3 rem;
+    grid-template-columns: repeat(2, 0.09fr);
+}
+.permalinks :hover{
+    transform: scale(1.2);
+    transition-duration: 800ms;
 }
