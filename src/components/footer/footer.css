@@ -9,15 +9,16 @@ footer a{
     color: rgb(116, 116, 157);
 }
 .footer_logo{
-    font-size:2rem;
+    font-size:1.7rem;
     font-weight: 500;
     margin-bottom:1rem;
+    transform: scale(1.5);
     display:inline-block;
 }
 .footer_socials{
     display: flex;
     justify-content: center;
-    gap:1rem;
+    gap:3rem;
     margin-bottom: 4rem;
 }
 .footer_socials a{
@@ -26,6 +27,7 @@ footer a{
     padding:1rem;
     border-radius: 0.9rem;
     display: flex;
+    transform: scale(1.5);
     border: 1px solid transparent;
 }
 .footer_socials a:hover{
@@ -44,6 +46,7 @@ li{
     display:grid;
     flex-wrap:wrap;
     justify-content: center;
+    padding-bottom: 1rem;
     grid-template-columns: repeat(2, 0.09fr);
 }
 .permalinks :hover{
