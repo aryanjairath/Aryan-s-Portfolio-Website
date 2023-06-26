@@ -55,7 +55,6 @@
     .portfolio__item-image {
         border-radius: 1.5rem;
         max-height: 10rem;
-        overflow: hidden;
     }
 
 }
