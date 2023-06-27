@@ -16,9 +16,6 @@ const Work = () => {
             <h5>Work & Leadership</h5>
             <h2>Internships</h2>
         </ScrollAnimation>
-        <div className='container work'>
-
-        </div>
         <div className="container work">
                 <article className="portfolio_item">
                     <article className='experience_details'>

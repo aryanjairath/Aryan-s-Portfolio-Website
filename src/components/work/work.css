@@ -84,4 +84,18 @@
     .portfolio_workitem{
         margin-right:17.5%;
     }
+    .portfolio_item{
+        padding: 1rem;
+        border-radius: 2rem;
+        border: 1px solid transparent;
+        transition: var(--transition);
+        width: 85%;
+    
+    }
+    div h4{
+        font-size: 2rem;
+    }
+    .work-option-icon{
+        font-size: 4rem;
+    }
 }
