@@ -1,5 +1,5 @@
 .portfolio_item-image{
-    border-radius: 10rem;
+    border-radius: 1.5rem;
     max-height: 10rem;
     overflow: hidden;
 }
@@ -52,5 +52,5 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
-
+    
 }
