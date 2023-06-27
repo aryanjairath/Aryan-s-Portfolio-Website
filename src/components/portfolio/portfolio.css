@@ -52,5 +52,14 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+    .portfolio_item{
+        display: grid;
+        background: var(--color-bg-variant);
+        padding: 1.3rem;
+        max-height:fit-content;
+        border-radius: 2rem;
+        border: 1px solid transparent;
+        transition: var(--transition);
+    }
     
 }
