@@ -99,6 +99,7 @@ section > h5{
 @media screen and (max-width: 600px){
     header{
         height: 100vh;
+        overflow: hidden;
     }
     .header_socials,
     .scroll_down{
