@@ -57,13 +57,13 @@ const Work = () => {
 
             <article className='portfolio_item'>                
                 <div className = 'work-image'>
-                    <img src = {genesis} alt = 'fannie'></img>
+                    <img src = {genesis} alt = 'genesis'></img>
 
                 </div>
             </article>
             <article className='portfolio_item'>                
                 <div className = 'work-image'>
-                    <img src = {biomed} alt = 'fannie'></img>
+                    <img src = {biomed} alt = 'biomed'></img>
 
                 </div>
             </article>

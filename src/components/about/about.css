@@ -146,10 +146,11 @@ h5{
         margin: 0 auto 3rem;
     }
     .about_cards{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: 95%;
-        gap:1rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        text-align: left;
+        vertical-align: middle;
     }
     .about_content{
         text-align: center;
