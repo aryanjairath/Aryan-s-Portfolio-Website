@@ -2,6 +2,7 @@ import React from 'react'
 import "./footer.css"
 import {BsLinkedin} from 'react-icons/bs'
 import {AiFillGithub} from 'react-icons/ai'
+
 const Footer = () => {
   return (
     <footer>
