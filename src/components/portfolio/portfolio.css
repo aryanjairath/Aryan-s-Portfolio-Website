@@ -1,5 +1,6 @@
 .portfolio_item-image{
     border-radius: 10rem;
+    max-height: 10rem;
     overflow: hidden;
 }
 .portfolio_container{
