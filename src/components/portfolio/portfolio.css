@@ -51,10 +51,5 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
-    .portfolio_item-image{
-        overflow: hidden;
-        
-    }
-    
-    
+
 }
