@@ -22,6 +22,9 @@
 .work-image{
     border-radius: 2rem;
     overflow: hidden;
+    max-width: 12rem;
+    max-height: 12rem;
+    justify-items: left;
     display: flex;
 
 }
@@ -56,6 +59,11 @@
     transition-duration: 1s;
     border-color: var(--color-primary-variant);
     background: transparent;
+}
+.work-option-icon{
+    font-size: 7rem;
+    color:var(--color-primary);
+    margin-bottom: -1rem;
 }
 @media screen and (max-width: 1024px){
     .work{

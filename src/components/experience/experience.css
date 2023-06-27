@@ -17,7 +17,6 @@
     padding: 2.4rem 6rem;
     border-radius: 2rem;
     border: 1px solid transparent;
-    
     transition: var(--transition);
 
 }
@@ -28,10 +27,10 @@
     cursor:default;
 }
 .experience_container > div h3{
-    text-align: left;
     margin-bottom: 2rem;
     color:var(--color-primary);
-    font-size: 2rem;
+    font-size: 2.0rem;
+    text-align: center;
     text-decoration:overline;
 }
 .experience_content{
