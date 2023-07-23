@@ -34,7 +34,7 @@ const Work = () => {
                         <FaRegKeyboard className = 'work-option-icon'/>
                         <BsArrowRight/>
                         <div>
-                            <h4>Genesis Code: Event Handler</h4>
+                            <h4>Genesis Code: Assistant Event Manager</h4>
                             <div className = 'work-image'>
                                 <img src = {genesis} alt = 'fannie'></img>
                             </div>
