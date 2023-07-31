@@ -14,7 +14,7 @@
 }
 .experience_container>div{
     background: var(--color-bg-variant);
-    padding: 2.4rem 6rem;
+    padding: 1rem 3.5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -33,6 +33,7 @@
     text-align: center;
     text-decoration:overline;
 }
+
 .experience_content{
     display: flex;
     grid-template-columns: 1fr 1fr;

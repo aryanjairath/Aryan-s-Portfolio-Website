@@ -1,18 +1,13 @@
 import React from 'react'
 import './experience.css'
-import {BsFillBookmarkCheckFill} from 'react-icons/bs';
-import {SiAssemblyscript, SiJava, SiJquery, SiKotlin, SiMysql, SiXaml} from 'react-icons/si';
-import {FaJava, FaReact} from 'react-icons/fa';
-import {SiC,SiCplusplus} from 'react-icons/si';
-
-import {ImHtmlFive2} from 'react-icons/im';
-import {DiCss3, DiJava, DiJavascript, DiJavascript1, DiJqueryLogo, DiMysql, DiPython, DiSqllite} from 'react-icons/di'
-import {Paint} from '../../assets/PaintProgram.png'
-import {IoLogoJavascript} from 'react-icons/io'
-
+import {SiC,SiCplusplus,SiAndroidstudio, SiAssemblyscript, SiJava, SiJquery, SiKotlin, SiLinux, SiMysql, SiSpringboot, SiVisualstudiocode, SiXaml} from 'react-icons/si';
+import {FaAngular, FaAws, FaJava, FaLinux, FaReact} from 'react-icons/fa';
+import {ImHtmlFive2, ImNpm} from 'react-icons/im';
+import {DiAws, DiCss3, DiEclipse, DiGit, DiJava, DiJavascript, DiJavascript1, DiPython, DiSqllite, DiVisualstudio} from 'react-icons/di'
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css';
 import { GrMysql } from 'react-icons/gr';
+import {GiBeaver} from 'react-icons/gi'
 const Experience = () => {
   return (
     <section id ='experience'>
@@ -87,6 +82,15 @@ const Experience = () => {
                         </div>
                     </article>
                 </div>
+                <div className="experient_content">
+                    <article className='experience_details'>
+                        <FaAngular className='icon'/>
+                        <div>
+                        <h4>Angular</h4>
+                        <small className = 'text'>Intermediate</small>
+                        </div>
+                    </article>
+                </div>
             </div>
             <div className="experience_backend">
             <h3>Backend Development</h3>
@@ -154,10 +158,93 @@ const Experience = () => {
                         </div>
                     </article>
                 </div>
+                <div className="experient_content">
+                    <article className='experience_details'>
+                        <SiSpringboot className='icon'/>
+                        <div>
+                        <h4>Spring Boot</h4>
+                        <small className = 'text'>Intermediate</small>
+                        </div>
+                    </article>
+                </div>
             </div>
-            
-        </div>
-
+           
+                <h3>IDE/Editors/Dev. Tools</h3>
+                <h3></h3>
+        
+                <div className="experient_content">
+                    <article className='experience_details'>
+                        <SiVisualstudiocode className='icon'/>
+                        <div>
+                            <h4>Visual Studio Code</h4>
+                            <small className = 'text'>Experienced</small>
+                        </div>
+                    </article>
+                </div>
+                <div className="experient_content">
+                    <article className='experience_details'>
+                        <DiEclipse className='icon'/>
+                        <div>
+                            <h4>Eclipse</h4>
+                            <small className = 'text'>Experienced</small>
+                        </div>
+                    </article>
+                </div>
+                <div className="experient_content">
+                    <article className='experience_details'>
+                        <SiAndroidstudio className='icon'/>
+                        <div>
+                        <h4>Android Studio</h4>
+                        <small className = 'text'>Experienced</small>
+                        </div>
+                    </article>
+                </div>
+                <div className="experient_content">
+                    <article className='experience_details'>
+                        <DiGit className='icon'/>
+                        <div>
+                        <h4>Git/Bash</h4>
+                        <small className = 'text'>Intermediate</small>
+                        </div>
+                    </article>
+                </div>
+                <div className="experient_content">
+                    <article className='experience_details'>
+                        <SiLinux className='icon'/>
+                        <div>
+                        <h4>Linux</h4>
+                        <small className = 'text'>Intermediate</small>
+                        </div>
+                    </article>
+                </div>
+                <div className="experient_content">
+                    <article className='experience_details'>
+                        <ImNpm className='icon'/>
+                        <div>
+                        <h4>Node Package Manager</h4>
+                        <small className = 'text'>Intermediate</small>
+                        </div>
+                    </article>
+                </div>
+                <div className="experient_content">
+                    <article className='experience_details'>
+                        <GiBeaver className='icon'/>
+                        <div>
+                        <h4>DBeaver</h4>
+                        <small className = 'text'>Intermediate</small>
+                        </div>
+                    </article>
+                </div>
+                <div className="experient_content">
+                    <article className='experience_details'>
+                        <FaAws className='icon'/>
+                        <div>
+                        <h4>AWS Console</h4>
+                        <small className = 'text'>Beginner</small>
+                        </div>
+                    </article>
+                </div>
+            </div>
     </section>
   )
 }
