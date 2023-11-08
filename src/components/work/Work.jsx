@@ -2,10 +2,12 @@ import React from 'react'
 import './work.css'
 import fannie from  '../../assets/fannie.jpg'
 import biomed from  '../../assets/biomed.png'
+import c1 from  '../../assets/capone.png'
+
 import genesis from  '../../assets/genesis.jpg'
-import {BsHouseDoor} from 'react-icons/bs'
+import {BsBank, BsHouseDoor} from 'react-icons/bs'
 import {FaRegKeyboard} from 'react-icons/fa'
-import {BiTestTube} from 'react-icons/bi'
+import {BiMoney, BiTestTube} from 'react-icons/bi'
 import ScrollAnimation from 'react-animate-on-scroll';
 import {BsArrowRight} from 'react-icons/bs'
 import 'animate.css';
@@ -17,6 +19,19 @@ const Work = () => {
             <h2>Internships</h2>
         </ScrollAnimation>
         <div className="container work">
+                <article className="portfolio_item">
+                    <article className='experience_details'>
+                        <BsBank className = 'work-option-icon'/>
+                        <BsArrowRight/>
+                        <div>
+                            <h4>Capital One: TDP Software Engineer</h4>
+                            <div className = 'work-image'>
+                                <img src = {c1} alt = 'fannie'></img>
+                                
+                            </div>
+                        </div>
+                    </article>
+                </article>
                 <article className="portfolio_item">
                     <article className='experience_details'>
                         <BsHouseDoor className = 'work-option-icon'/>
@@ -46,7 +61,7 @@ const Work = () => {
                         <BiTestTube className = 'work-option-icon'/>
                         <BsArrowRight/>
                         <div>
-                            <h4>Biomedical Futures: Exec. Officer</h4>
+                            <h4>SBiomedical Futures: Executive Officer</h4>
                             <div className = 'work-image'>
                                 <img src = {biomed} alt = 'fannie'></img>
                             </div>
