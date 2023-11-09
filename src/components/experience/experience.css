@@ -68,21 +68,26 @@
     }
 }
 
-@media screen and (max-width: 600px){
-    .experience_container{
+@media screen and (max-width: 600px) {
+    .experience_container {
         gap: 1rem;
-        width:95vw;
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    .experience_container > div{
-        width:100%;
+    .experience_container > div {
+        width: 100%;
         padding: 1.5rem 0.55rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    .experience_container > div h4{
-            font-size: 1.6rem;
-
+    .experience_container > div h4 {
+        font-size: 1.6rem;
+        text-align: center;
     }
-    .icon{
+    .icon {
         font-size: 1.9rem;
-    }    
-
+    }
 }

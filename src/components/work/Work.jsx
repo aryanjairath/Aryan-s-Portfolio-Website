@@ -49,7 +49,7 @@ const Work = () => {
                         <FaRegKeyboard className = 'work-option-icon'/>
                         <BsArrowRight/>
                         <div>
-                            <h4>Genesis Code: Assistant Event Manager</h4>
+                            <h4>Genesis Code: Event Manager</h4>
                             <div className = 'work-image'>
                                 <img src = {genesis} alt = 'fannie'></img>
                             </div>
@@ -61,7 +61,7 @@ const Work = () => {
                         <BiTestTube className = 'work-option-icon'/>
                         <BsArrowRight/>
                         <div>
-                            <h4>SBiomedical Futures: Executive Officer</h4>
+                            <h4>Biomedical Futures: Executive</h4>
                             <div className = 'work-image'>
                                 <img src = {biomed} alt = 'fannie'></img>
                             </div>
