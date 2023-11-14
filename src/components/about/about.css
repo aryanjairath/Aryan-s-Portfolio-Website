@@ -96,7 +96,7 @@ h5{
 }
 
 .btn-primary:hover{
-    transform: scale(1.4);
+    transform: scale(1.15);
     transition-duration: 1000ms;
 
 }
