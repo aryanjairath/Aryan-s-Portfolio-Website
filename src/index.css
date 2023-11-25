@@ -14,7 +14,7 @@
 :root{
     --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
+    --color-primary: #4da0ff;
     --color-primary-variant: #rgba(77,181,255,.4);
     --color-white: #fff;
     --color-light:gray ;
@@ -112,6 +112,16 @@ a:hover{
 .btn-primary{
     background: var(--color-primary);
     color: var(--color-bg);
+
+}
+
+.MAIN{
+    background: var(--color-primary);
+    color: var(--color-bg);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 2rem;
 
 }
 img{
