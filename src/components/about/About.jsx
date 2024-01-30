@@ -26,7 +26,7 @@ const About = () => {
                     <article className ='about_card'>
                         <FaGraduationCap className = 'about_icon' />
                         <h5>Education</h5>
-                        <small>BS Computer Science</small>
+                        <small>BS Computer Science & Data Science </small>
                         <small>@ Rutgers University</small>
                     </article>
 
@@ -98,15 +98,17 @@ const About = () => {
                     <div className='modal'>
 
                         <div className="pop_up_window animate__animated animate__zoomIn">
-                            <p>I am currenty a second year student at Rutgers</p>
-                            <p>University with both Front-End and Back-End experience in programming.</p>
-                            <p>I have a 3.92 GPA and have surrounded myself in an environment to further</p> 
-                            <p>my computer science arsenal in any way possible. I currently am involved in the</p>                                
-                            <p>Rutgers Security Club.</p>
-                            <p>In my free time, I enjoy doing algorithmic style coding problems, making mobile</p>
-                            <p>applications particularly on the Android side. I also have a multitude of hobbies: a big Brooklyn Nets and Roger </p>
-                            <p>Federer fan and watch sports almost every day and also just hanging out with friends and family whenver I can. </p>                            
-                            </div>
+                            <p>
+                            As a third-year student at Rutgers University, I am immersed in expanding my expertise in both front-end and back-end programming. 
+                            Currently holding a 3.95 GPA, I am committed to enhancing my computer science skills in every possible way. My active involvement 
+                            in the Rutgers Security Club further enriches my learning experience. Professionally, I have gained valuable job experience 
+                            working at Fannie Mae, which has contributed significantly to my practical understanding of the field. <br /> <br />
+                            In my leisure time, I indulge in algorithmic coding challenges and develop mobile applications, with a particular focus
+                            on Android platforms. Outside of academics and work, I am an avid sports enthusiast, closely following the Brooklyn Nets and celebrating 
+                            Roger Federer's athletic achievements. Watching sports is a daily pleasure for me, along with spending quality time with friends and 
+                            family whenever possible. My diverse interests and experiences contribute to a well-rounded and dynamic approach to both my professional and personal life.
+                            </p>                          
+                        </div>
                         <div>
                             <button className = 'btn btn-primary'onClick=
                                 {() => close()}>
