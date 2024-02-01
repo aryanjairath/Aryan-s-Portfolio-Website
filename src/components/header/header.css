@@ -1,7 +1,7 @@
 header{
-    height: 100vh;
-    padding-top: 7rem;
-    overflow:auto;
+    height:120vh;
+    padding-top:12rem;
+    overflow:hidden;
 }
 
 .header_container{
@@ -70,12 +70,21 @@ section > h5{
 
 
 .me{
-    height: auto;
     background: var(--color-primary);
-    border-radius: 9rem;
-    width: 28rem;
+    border-radius: 1.8rem;
+    width: 20rem;
+    height: 27rem;    
     position: absolute;
-    left: calc(50% - 14rem);
+    display: flex; /* Using flex to center the image */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    overflow-y:hidden;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+.me img {
+    width: 100%; /* Image will scale to the width of the container */
+    height: auto; /* Height will adjust automatically to maintain the aspect ratio */
 }
 .scroll_down{
     transform: rotate(90deg);
