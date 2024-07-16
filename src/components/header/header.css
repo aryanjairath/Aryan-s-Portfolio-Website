@@ -1,7 +1,6 @@
 header{
     height:120vh;
     padding-top:12rem;
-    overflow:hidden;
 }
 
 .header_container{
@@ -84,7 +83,7 @@ section > h5{
 }
 .me img {
     width: 100%; /* Image will scale to the width of the container */
-    height: auto; /* Height will adjust automatically to maintain the aspect ratio */
+    height: 100%; /* Height will adjust automatically to maintain the aspect ratio */
 }
 .scroll_down{
     transform: rotate(90deg);

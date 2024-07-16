@@ -1,5 +1,5 @@
 import React from 'react'
-import C from '../../assets/Aryan_Jairath_s_Resume.pdf'
+import C from '../../assets/Aryan_Jairath_Official_Resume.pdf'
 const CTA = () => {
   return (
     <div className ="cta">
