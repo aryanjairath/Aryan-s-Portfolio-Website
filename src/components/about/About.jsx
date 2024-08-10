@@ -99,10 +99,10 @@ const About = () => {
 
                         <div className="pop_up_window animate__animated animate__zoomIn">
                             <p>
-                            As a third-year student at Rutgers University, I am immersed in expanding my expertise in both front-end and back-end programming. 
-                            Currently holding a 3.95 GPA, I am committed to enhancing my computer science skills in every possible way. My active involvement 
+                            As a fourth-year student at Rutgers University, I am immersed in expanding my expertise in both front-end and back-end programming. 
+                            Currently holding a 3.96 GPA, I am committed to enhancing my computer science skills in every possible way. My active involvement 
                             in the Rutgers Security Club further enriches my learning experience. Professionally, I have gained valuable job experience 
-                            working at Fannie Mae, which has contributed significantly to my practical understanding of the field. <br /> <br />
+                            working at Capital One and Fannie Mae, which has contributed significantly to my practical understanding of CI/CD, product lifecycle, and architecture as a whole. <br /> <br />
                             In my leisure time, I indulge in algorithmic coding challenges and develop mobile applications, with a particular focus
                             on Android platforms. Outside of academics and work, I am an avid sports enthusiast, closely following the Brooklyn Nets and celebrating 
                             Roger Federer's athletic achievements. Watching sports is a daily pleasure for me, along with spending quality time with friends and 

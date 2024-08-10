@@ -71,8 +71,8 @@ section > h5{
 .me{
     background: var(--color-primary);
     border-radius: 1.8rem;
-    width: 20rem;
-    height: 27rem;    
+    width: 29rem;
+    height: 41rem;    
     position: absolute;
     display: flex; /* Using flex to center the image */
     align-items: center; /* Center vertically */
