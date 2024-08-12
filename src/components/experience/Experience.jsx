@@ -1,6 +1,7 @@
 import React from 'react'
 import './experience.css'
-import {SiC,SiCplusplus,SiAndroidstudio, SiAssemblyscript, SiJava, SiJquery, SiKotlin, SiLinux, SiMysql, SiSpringboot, SiVisualstudiocode, SiXaml} from 'react-icons/si';
+import {SiC,SiCplusplus,SiAndroidstudio, SiAssemblyscript, SiJava, SiJquery, SiKotlin, SiLinux, SiMysql, SiSpringboot, SiVisualstudiocode, SiXaml, SiSnowflake, SiAwslambda, SiJetbrains   } from 'react-icons/si';
+
 import {FaAngular, FaAws, FaJava, FaLinux, FaReact} from 'react-icons/fa';
 import {ImHtmlFive2, ImNpm} from 'react-icons/im';
 import {DiAws, DiCss3, DiEclipse, DiGit, DiJava, DiJavascript, DiJavascript1, DiPython, DiSqllite, DiVisualstudio} from 'react-icons/di'
@@ -201,6 +202,24 @@ const Experience = () => {
                 </div>
                 <div className="experient_content">
                     <article className='experience_details'>
+                        <SiSnowflake className='icon'/>
+                        <div>
+                            <h4>Snowflake</h4>
+                            <small className = 'text'>Intermediate</small>
+                        </div>
+                    </article>
+                </div>
+                <div className="experient_content">
+                    <article className='experience_details'>
+                        <SiAwslambda className='icon'/>
+                        <div>
+                            <h4>AWS Lambda</h4>
+                            <small className = 'text'>Intermediate</small>
+                        </div>
+                    </article>
+                </div>
+                <div className="experient_content">
+                    <article className='experience_details'>
                         <DiGit className='icon'/>
                         <div>
                         <h4>Git/Bash</h4>
@@ -219,9 +238,9 @@ const Experience = () => {
                 </div>
                 <div className="experient_content">
                     <article className='experience_details'>
-                        <ImNpm className='icon'/>
+                        <SiJetbrains className='icon'/>
                         <div>
-                        <h4>Node Package Manager</h4>
+                        <h4>JetBrains</h4>
                         <small className = 'text'>Intermediate</small>
                         </div>
                     </article>
