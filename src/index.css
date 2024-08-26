@@ -112,12 +112,14 @@ a:hover{
 .btn-primary{
     background: var(--color-primary);
     color: var(--color-bg);
+    margin-top :3rem;
 
 }
 
 .MAIN{
     background: var(--color-primary);
     color: var(--color-bg);
+    border-radius: 15rem;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
