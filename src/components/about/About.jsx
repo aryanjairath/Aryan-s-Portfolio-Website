@@ -12,7 +12,7 @@ const About = () => {
   return (
     <section id = 'about'>
         <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3} animateOnce={true}>
-            <h5> Get To Know Me</h5>
+            <h5 style={{marginTop: '22rem'}}> Get To Know Me</h5>
             <h2>About Me</h2>
         </ScrollAnimation>
         <div className="container about_container">
