@@ -25,6 +25,7 @@ const App = () => {
       <ScrollAnimation animateIn="animate__animated animate__fadeIn" duration={3.7} animateOnce={true}><Experience /></ScrollAnimation>
       <Nav/>
       <ScrollAnimation animateIn="animate__animated animate__fadeIn" duration={3.7} animateOnce={true}><Portfolio /></ScrollAnimation>
+      <ScrollAnimation animateIn="animate__animated animate__fadeIn" duration={3.7} animateOnce={true}><Portfolio /></ScrollAnimation>
       <ScrollAnimation animateIn="animate__animated animate__bounce" duration={2.2} animateOnce={true}><Contact /></ScrollAnimation>    
       <Footer/>
     </div>
