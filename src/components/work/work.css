@@ -28,18 +28,18 @@
 .work-image{
     border-radius: 2rem;
     overflow: hidden;
-    max-width: 12rem;
-    max-height: 12rem;
+    max-width: 11rem;
+    max-height: 11rem;
     justify-items: left;
     display: flex;
 
 }
 
 .portfolio_item{
-    padding: 1rem;
+    padding: 0.7rem;
     border-radius: 2rem;
     border: 1px solid transparent;
-    transition: var(--transition);
+    transition: var(--transition)
 
 }
 

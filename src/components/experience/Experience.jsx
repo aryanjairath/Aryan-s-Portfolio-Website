@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import './experience.css'
-import {SiC,SiCplusplus,SiAndroidstudio, SiAssemblyscript, SiJava, SiJquery, SiKotlin, SiLinux, SiMysql, SiSpringboot, SiVisualstudiocode, SiXaml, SiSnowflake, SiAwslambda, SiJetbrains   } from 'react-icons/si';
+import {SiC,SiCplusplus,SiAndroidstudio, SiAssemblyscript, SiJava, SiJquery, SiKotlin, SiLinux, SiMysql, SiSpringboot, SiVisualstudiocode, SiXaml, SiSnowflake, SiJetbrains   } from 'react-icons/si';
 
 import {FaAngular, FaAws, FaJava, FaLinux, FaReact} from 'react-icons/fa';
 import {ImHtmlFive2, ImNpm} from 'react-icons/im';
@@ -8,6 +8,7 @@ import {DiAws, DiCss3, DiEclipse, DiGit, DiJava, DiJavascript, DiJavascript1, Di
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css';
 import { GrMysql } from 'react-icons/gr';
+import { SiAwslambda } from "react-icons/si";
 import {GiBeaver} from 'react-icons/gi'
 import { ThemeContext } from '../../contexts/ThemeContext';
 const Experience = () => {
