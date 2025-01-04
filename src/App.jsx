@@ -12,6 +12,7 @@ import { ThemeContext } from './contexts/ThemeContext';
 import ScrollAnimation from 'react-animate-on-scroll';
 import './index.css'
 import ThemeContextProvider from './contexts/ThemeContext'
+import Accomplishments from './components/accomplishments/Accomplishments'
 
 const App = () => {
   const { isLight, toggleTheme } = useContext(ThemeContext);
@@ -25,7 +26,7 @@ const App = () => {
       <ScrollAnimation animateIn="animate__animated animate__fadeIn" duration={3.7} animateOnce={true}><Experience /></ScrollAnimation>
       <Nav/>
       <ScrollAnimation animateIn="animate__animated animate__fadeIn" duration={3.7} animateOnce={true}><Portfolio /></ScrollAnimation>
-      <ScrollAnimation animateIn="animate__animated animate__fadeIn" duration={3.7} animateOnce={true}><Portfolio /></ScrollAnimation>
+      <ScrollAnimation animateIn="animate__animated animate__fadeIn" duration={3.7} animateOnce={true}><Accomplishments /></ScrollAnimation>
       <ScrollAnimation animateIn="animate__animated animate__bounce" duration={2.2} animateOnce={true}><Contact /></ScrollAnimation>    
       <Footer/>
     </div>
