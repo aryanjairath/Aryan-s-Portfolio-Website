@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import './portfolio.css'
 import Paint from '../../assets/PaintProgram.png'
 import MusicBox from '../../assets/MusicBox.png'
@@ -12,6 +12,7 @@ import reactIc from '../../assets/myWebsite.png'
 import interpret from '../../assets/interpret.png'
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css';
+import { ThemeContext } from '../../contexts/ThemeContext';
 const Portfolio = () => {
     const [showAll, setShowAll] = useState(false);
     const items = [
@@ -32,11 +33,12 @@ const Portfolio = () => {
         const baseDelay = 0.2; // Base delay in seconds
         return baseDelay * index; // Increase delay for each subsequent item
       }
-    
+      const {isLight, DarkMode, LightMode} = useContext(ThemeContext);
+      const theme = isLight ? LightMode: DarkMode;
       return (
-        <section id='portfolio'>
+        <section id='portfolio' >
           <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3} animateOnce={true}>
-              <h5>My Recent Work</h5>
+              <h5 style ={{color: theme.text}}>My Recent Work</h5>
               <h2>Portfolio</h2>
           </ScrollAnimation>
           <div className="container portfolio_container">

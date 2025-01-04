@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './experience.css'
 import {SiC,SiCplusplus,SiAndroidstudio, SiAssemblyscript, SiJava, SiJquery, SiKotlin, SiLinux, SiMysql, SiSpringboot, SiVisualstudiocode, SiXaml, SiSnowflake, SiAwslambda, SiJetbrains   } from 'react-icons/si';
 
@@ -9,11 +9,14 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css';
 import { GrMysql } from 'react-icons/gr';
 import {GiBeaver} from 'react-icons/gi'
+import { ThemeContext } from '../../contexts/ThemeContext';
 const Experience = () => {
+    const {isLight, DarkMode, LightMode} = useContext(ThemeContext);
+    const theme = isLight ? LightMode: DarkMode;
   return (
     <section id ='experience'>
         <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3} animateOnce={true}>
-            <h5> My Skils</h5>
+            <h5 style = {{color: theme.text}}> My Skils</h5>
             <h2> Coding Languages</h2>
         </ScrollAnimation>
         <div className="container experience_container">
@@ -170,7 +173,7 @@ const Experience = () => {
                 </div>
             </div>
            
-                <h3>IDE/Editors/Dev. Tools</h3>
+                <h3 style = {{color: theme.text}}>IDE/Editors/Dev. Tools</h3>
                 <h3></h3>
         
                 <div className="experient_content">

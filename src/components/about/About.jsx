@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './about.css'
 import ME from '../../assets/about-me.jpg'
 import {FaGraduationCap} from 'react-icons/fa'
@@ -8,11 +8,14 @@ import {BsArrowRightCircleFill} from 'react-icons/bs'
 import Popup from 'reactjs-popup'
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css';
+import { ThemeContext } from '../../contexts/ThemeContext'
 const About = () => {
+  const {isLight, DarkMode, LightMode} = useContext(ThemeContext);
+  const theme = isLight ? LightMode: DarkMode;
   return (
     <section id = 'about'>
         <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3} animateOnce={true}>
-            <h5> Get To Know Me</h5>
+            <h5 style = {{color:theme.text}}> Get To Know Me</h5>
             <h2>About Me</h2>
         </ScrollAnimation>
         <div className="container about_container">
@@ -44,7 +47,7 @@ const About = () => {
                     <article className ='about_details'>
                         <div>
                             <BsArrowRightCircleFill className = 'bullet' />
-                            <small>GPA: 3.93</small>
+                            <small>GPA: 3.96</small>
                         </div>
                         <div>
                             <BsArrowRightCircleFill className = 'bullet' />

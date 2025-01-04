@@ -32,11 +32,17 @@ html{
 ::-webkit-scrollbar{
     display: none;
 }
-body{
+.dark-mode{
     font-family: 'Source Sans Pro', sans-serif;    background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
     background-image: url(../src/assets/bg-texture.jpg);
+}
+.light-mode{
+    font-family: 'Source Sans Pro', sans-serif;    background: var(--color-bg);
+    color: var(--color-white);
+    line-height: 1.7;
+    background-image: url(../src/assets/bg-texture-light.jpg);
 }
 
 /* *************************General Styles ************************** */

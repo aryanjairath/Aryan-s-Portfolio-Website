@@ -46,12 +46,11 @@ section > h5{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.8rem;
+    gap: 0.4rem;
     position: absolute;
     left: 0;
     bottom: 3rem;
-    will-change: transform;
-    transition: transform 250ms;
+    transform: scale(1.6);
 
 }
 .header_socials:hover{
@@ -62,7 +61,6 @@ section > h5{
 .header_socials::before{
     content: '';
     width: 1px;
-    height: 2rem;
     background: var(--color-primary);
 
 }

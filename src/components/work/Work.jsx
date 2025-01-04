@@ -10,6 +10,8 @@ import {FaRegKeyboard} from 'react-icons/fa'
 import {BiMoney, BiTestTube} from 'react-icons/bi'
 import ScrollAnimation from 'react-animate-on-scroll';
 import {BsArrowRight} from 'react-icons/bs'
+import { useContext } from 'react'
+import { ThemeContext } from '../../contexts/ThemeContext'
 import 'animate.css';
 const Work = () => {
     const createParagraphs = (textArray) => {
@@ -18,17 +20,18 @@ const Work = () => {
         ));
     };
 
-    // Array of strings for the popup content
     const biomedPop = ["Created and presented engaging, informative lectures about different topics in biology and medicine on a weekly basis throughout the school year. Took into account the interest of club members to develop engaging activities for meetings. Personally invited over 10 guest speakers (including, but not limited to doctors, nurses, and researchers) to provide club members with real-life experiences through a school-wide event, BioMed Career Convention."];
     const genesisPop = ["• Taught lessons plans with 50+ students pivotal Java concepts such as polymorphism, inheritance, and encapsulation; also assigned a JavaFX game development project",
     "• Reinforced concepts with limited computer access through exercises such as determine the output and big O",
     "analysis depending on experience; over 75% of the cohort passed Data Structures certification exam"];
     const fanniePop =["• Used DBeaver to test PostgreSQL query performance through AWS Redshift saving 10 hours per execution • Worked with Spring Boot and Angular in Social Score Calculator webapp; improved error handling by 20% • AWS environment, implementing SageMaker for advanced data modeling; improved single-family prediction accuracy by 40% for stakeholders, resulting in optimized resource allocation and increased revenue potential. • Created decision trees to compare Dask, Pandas, Spark, and Polars based on cost and performance for utilization • Created a PowerAutomate flow in Microsoft PowerApps to conduct the transfer of files from Sharepoint to S3. • Used tools such as JIRA and performed unit testing with JUnit to validate applied logic and edge cases."]
     const c1Pop = ["More information coming soon!"]
+    const {isLight, DarkMode, LightMode} = useContext(ThemeContext);
+    const theme = isLight ? LightMode: DarkMode;
     return (
     <section id = 'work'>
         <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3} animateOnce={true}>
-            <h5>Work & Leadership</h5>
+            <h5 style = {{color:theme.text}}>Work & Leadership</h5>
             <h2>Internships</h2>
         </ScrollAnimation>
         <div className="container work">
