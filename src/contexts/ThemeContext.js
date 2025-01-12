@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import { createContext } from "react";
-import { BsLightbulb } from "react-icons/bs";
 export const ThemeContext = createContext();
 
 const ThemeContextProvider = ( {children} ) => {
@@ -18,7 +17,6 @@ const ThemeContextProvider = ( {children} ) => {
     }
     return (
         <ThemeContext.Provider value = {{isLight, LightMode, DarkMode, toggleMode}}>
-            <button onClick={toggleMode}>{<BsLightbulb/>}</button>
             {children}
         </ThemeContext.Provider>
     )
