@@ -5,7 +5,7 @@ header{
 
 .header_container{
     text-align: center;
-    height: 120%;
+    height: 100%;
     position: relative;
 }
 section > h5{
@@ -98,17 +98,19 @@ section > h5{
 }
 @media screen and (max-width: 1024px){
     header{
-        height: 68vh;
+        height: 100vh;
+        overflow: hidden;
     }
 }
 
 @media screen and (max-width: 600px){
     header{
         height: 100vh;
-        overflow: scroll;
+        overflow: hidden;
     }
     .header_socials,
     .scroll_down{
         display: none;
     }
+    
 }
