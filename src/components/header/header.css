@@ -105,6 +105,8 @@ section > h5{
 @media screen and (max-width: 600px){
     header{
         height: 110vh;
+          margin-bottom: 5rem; /* add spacing below */
+
     }
     .header_socials,
     .scroll_down{
