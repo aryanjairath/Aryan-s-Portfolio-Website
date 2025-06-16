@@ -98,15 +98,13 @@ section > h5{
 }
 @media screen and (max-width: 1024px){
     header{
-        height: 100vh;
-        overflow: hidden;
+        height: 130vh;
     }
 }
 
 @media screen and (max-width: 600px){
     header{
-        height: 100vh;
-        overflow: hidden;
+        height: 110vh;
     }
     .header_socials,
     .scroll_down{

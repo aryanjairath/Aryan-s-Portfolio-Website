@@ -9,6 +9,7 @@ import Popup from 'reactjs-popup'
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css';
 import { ThemeContext } from '../../contexts/ThemeContext'
+import about from './about-data'
 const About = () => {
   const {isLight, DarkMode, LightMode} = useContext(ThemeContext);
   const theme = isLight ? LightMode: DarkMode;
@@ -24,26 +25,18 @@ const About = () => {
                     <img src = {ME} alt ="About Image"/>
                 </div>
             </div>
+            
             <div className = "about_content">
                 <div className = "about_cards">
-                    <article className ='about_card'>
-                        <FaGraduationCap className = 'about_icon' />
-                        <h5>Education</h5>
-                        <small>BS Computer Science & Data Science </small>
-                        <small>@ Rutgers University</small>
-                    </article>
+                       {about.map((item) => (
+                <article className='about_card'>
+                    <item.ticker className = 'about_icon' />
+                    <h5>{item.accomplishment}</h5>
+                    <small>{item.descrip}</small>
+                </article>
+            ))}
 
-                    <article className ='about_card'>
-                        <SiCrowdsource className = 'about_icon' />
-                        <h5>Leadership</h5>
-                        <small>Executive mangagement positions</small>
-                    </article>
 
-                    <article className ='about_card'>
-                        <HiOutlineDesktopComputer className = 'about_icon' />
-                        <h5>Projects</h5>
-                        <small>10+ Personal Projects</small>
-                    </article>
                     <article className ='about_details'>
                         <div>
                             <BsArrowRightCircleFill className = 'bullet' />

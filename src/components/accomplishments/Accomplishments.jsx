@@ -9,17 +9,14 @@ import {FaRegKeyboard} from 'react-icons/fa'
 import {BiMoney, BiTestTube} from 'react-icons/bi'
 import ScrollAnimation from 'react-animate-on-scroll';
 import {BsArrowRight} from 'react-icons/bs'
+import items from './items.jsx'
 import 'animate.css';
 const Accomplishments = () => {
    const[show, setShow] = useState(true)
    const handleClick = () =>{
       setShow(!show)
    }
-   const items = [
-    { title: 'Capital One Hackathon', explanation: 'Received second place in the internwide hackathon, created a project using MERN stack' },
-    { title: 'Fannie Mae Distinguished Intern', explanation: 'Received speical recognition for being proactive among the intern class' },
 
-  ];
     return (
     <section id = 'new'>
         <ScrollAnimation animateIn="animate__animated animate__fadeInRight" duration={3} animateOnce={true}>
