@@ -10,6 +10,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css';
 import { ThemeContext } from '../../contexts/ThemeContext'
 import about from './about-data'
+import about_achievements from './about-data'
 const About = () => {
   const {isLight, DarkMode, LightMode} = useContext(ThemeContext);
   const theme = isLight ? LightMode: DarkMode;
@@ -28,28 +29,22 @@ const About = () => {
             
             <div className = "about_content">
                 <div className = "about_cards">
-                       {about.map((item) => (
-                <article className='about_card'>
-                    <item.ticker className = 'about_icon' />
-                    <h5>{item.accomplishment}</h5>
-                    <small>{item.descrip}</small>
-                </article>
-            ))}
+                    {about.map((item) => (
+                    <article className='about_card'>
+                        <item.ticker className = 'about_icon' />
+                        <h5>{item.accomplishment}</h5>
+                        <small>{item.descrip}</small>
+                    </article>
+                    ))}
 
 
                     <article className ='about_details'>
-                        <div>
-                            <BsArrowRightCircleFill className = 'bullet' />
-                            <small>GPA: 3.96</small>
-                        </div>
-                        <div>
-                            <BsArrowRightCircleFill className = 'bullet' />
-                            <small>Innovation Fellowship</small>
-                        </div>
-                        <div>
-                            <BsArrowRightCircleFill className = 'bullet' />
-                            <small>RU Security  Club</small>
-                        </div>
+                            {about_achievements.map((item)=> (
+                                <div>
+                                    <item.ticker className = 'bullet'/>
+                                    <small>{item.achievement}</small>
+                                </div>
+                            ))}                    
                     </article>
 
                     <article className ='about_details'>
@@ -65,7 +60,7 @@ const About = () => {
                             <BsArrowRightCircleFill className = 'bullet' />
                             <small>Community Service</small>
                         </div>
-                    </article>
+            </article>
 
                     <article className ='about_details'>
                         <div>
