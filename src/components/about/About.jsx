@@ -1,16 +1,13 @@
 import React, { useContext } from 'react'
 import './about.css'
 import ME from '../../assets/about-me.jpg'
-import {FaGraduationCap} from 'react-icons/fa'
-import {HiOutlineDesktopComputer} from 'react-icons/hi'
-import {SiCrowdsource} from 'react-icons/si'
-import {BsArrowRightCircleFill} from 'react-icons/bs'
-import Popup from 'reactjs-popup'
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css';
 import { ThemeContext } from '../../contexts/ThemeContext'
 import { about, about_achievements, about_leader, about_project } from './about-data'
 import AboutDetailGroup from './AboutDetails'
+import Popout from './Popout';
+
 const About = () => {
   const {isLight, DarkMode, LightMode} = useContext(ThemeContext);
   const theme = isLight ? LightMode: DarkMode;
@@ -43,34 +40,8 @@ const About = () => {
 
                 </div>
             </div>
-            <Popup trigger=
-                {<button className='btn btn-primary'> Learn More About Me </button>}
-                modal nested>
-                {close => (
-                    <div className='modal'>
-
-                        <div className="pop_up_window animate__animated animate__zoomIn">
-                            <p>
-                            As a fourth-year student at Rutgers University, I am immersed in expanding my expertise in both front-end and back-end programming. 
-                            Currently holding a 3.96 GPA, I am committed to enhancing my computer science skills in every possible way. My active involvement 
-                            in the Rutgers Security Club further enriches my learning experience. Professionally, I have gained valuable job experience 
-                            working at Capital One and Fannie Mae, which has contributed significantly to my practical understanding of CI/CD, product lifecycle, and architecture as a whole. <br /> <br />
-                            In my leisure time, I indulge in algorithmic coding challenges and develop mobile applications, with a particular focus
-                            on Android platforms. Outside of academics and work, I am an avid sports enthusiast, closely following the Brooklyn Nets and celebrating 
-                            Roger Federer's athletic achievements. Watching sports is a daily pleasure for me, along with spending quality time with friends and 
-                            family whenever possible. My diverse interests and experiences contribute to a well-rounded and dynamic approach to both my professional and personal life.
-                            </p>                          
-                        </div>
-                        <div>
-                            <button className = 'btn btn-primary'onClick=
-                                {() => close()}>
-                                    Close                                
-                                </button>
-                    </div>
-                    </div>
-                    )
-                }
-            </Popup>        </div>
+            <Popout blockOne = {'As a fourth-year student at Rutgers University, I am immersed in expanding my expertise in both front-end and back-end programming. Currently holding a 3.96 GPA, I am committed to enhancing my computer science skills in every possible way. My active involvement in the Rutgers Security Club further enriches my learning experience. Professionally, I have gained valuable job experience working at Capital One and Fannie Mae, which has contributed significantly to my practical understanding of CI/CD, product lifecycle, and architecture as a whole.'} blockTwo = {'In my leisure time, I indulge in algorithmic coding challenges and develop mobile applications, with a particular focus on Android platforms. Outside of academics and work, I am an avid sports enthusiast, closely following the Brooklyn Nets and the Los Angeles Lakers. Watching sports is a daily pleasure for me, along with spending quality time with friends and family whenever possible. My diverse interests and experiences contribute to a well-rounded and dynamic approach to both my professional and personal life.'} />
+        </div>
     </section>
   )
 }
