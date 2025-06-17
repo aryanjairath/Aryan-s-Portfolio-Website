@@ -9,8 +9,7 @@ import Popup from 'reactjs-popup'
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css';
 import { ThemeContext } from '../../contexts/ThemeContext'
-import about from './about-data'
-import about_achievements from './about-data'
+import { about, about_achievements, about_leader, about_project } from './about-data'
 const About = () => {
   const {isLight, DarkMode, LightMode} = useContext(ThemeContext);
   const theme = isLight ? LightMode: DarkMode;
@@ -37,49 +36,32 @@ const About = () => {
                     </article>
                     ))}
 
-
                     <article className ='about_details'>
                             {about_achievements.map((item)=> (
                                 <div>
                                     <item.ticker className = 'bullet'/>
                                     <small>{item.achievement}</small>
                                 </div>
-                            ))}                    
-                    </article>
+                            ))}
+                    </ article>
+                    
+                    <article className ='about_details'>
+                            {about_leader.map((item)=> (
+                                <div>
+                                    <item.ticker className = 'bullet'/>
+                                    <small>{item.achievement}</small>
+                                </div>
+                            ))}
+                    </ article>
 
                     <article className ='about_details'>
-                        <div>
-                            <BsArrowRightCircleFill className = 'bullet' />
-                            <small>Biomed Officer </small>
-                        </div>
-                        <div>
-                            <BsArrowRightCircleFill className = 'bullet' />
-                            <small>STEM HS Coach</small>
-                        </div>
-                        <div>
-                            <BsArrowRightCircleFill className = 'bullet' />
-                            <small>Community Service</small>
-                        </div>
-            </article>
-
-                    <article className ='about_details'>
-                        <div>
-                            <BsArrowRightCircleFill className = 'bullet' />
-                            <small>OOP</small>
-                        </div>
-                        <div>
-                            <BsArrowRightCircleFill className = 'bullet' />
-                            <small>JavaFX Library</small>
-                        </div>
-                        <div>
-                            <BsArrowRightCircleFill className = 'bullet' />
-                            <small>Databases</small>
-                        </div>
-                        <div>
-                            <BsArrowRightCircleFill className = 'bullet' />
-                            <small>Android Applications</small>
-                        </div>
-                    </article>
+                            {about_project.map((item)=> (
+                                <div>
+                                    <item.ticker className = 'bullet'/>
+                                    <small>{item.achievement}</small>
+                                </div>
+                            ))}
+                    </ article>
                 </div>
             </div>
             <Popup trigger=
