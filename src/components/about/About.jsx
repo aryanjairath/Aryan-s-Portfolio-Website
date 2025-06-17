@@ -10,6 +10,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css';
 import { ThemeContext } from '../../contexts/ThemeContext'
 import { about, about_achievements, about_leader, about_project } from './about-data'
+import AboutDetailGroup from './AboutDetails'
 const About = () => {
   const {isLight, DarkMode, LightMode} = useContext(ThemeContext);
   const theme = isLight ? LightMode: DarkMode;
@@ -36,32 +37,10 @@ const About = () => {
                     </article>
                     ))}
 
-                    <article className ='about_details'>
-                            {about_achievements.map((item)=> (
-                                <div>
-                                    <item.ticker className = 'bullet'/>
-                                    <small>{item.achievement}</small>
-                                </div>
-                            ))}
-                    </ article>
-                    
-                    <article className ='about_details'>
-                            {about_leader.map((item)=> (
-                                <div>
-                                    <item.ticker className = 'bullet'/>
-                                    <small>{item.achievement}</small>
-                                </div>
-                            ))}
-                    </ article>
+                    <AboutDetailGroup data={about_achievements} />
+                    <AboutDetailGroup data={about_leader} />
+                    <AboutDetailGroup data={about_project} />
 
-                    <article className ='about_details'>
-                            {about_project.map((item)=> (
-                                <div>
-                                    <item.ticker className = 'bullet'/>
-                                    <small>{item.achievement}</small>
-                                </div>
-                            ))}
-                    </ article>
                 </div>
             </div>
             <Popup trigger=
